@@ -2,7 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-dataset = pd.read_csv('adult sal.csv', names = ['age',
+# Dataset is available on Dataset repository
+dataset = pd.read_csv('Adult Sal.csv', names = ['age',
                                           'workclass',
                                           'fnlwgt',
                                           'education',
