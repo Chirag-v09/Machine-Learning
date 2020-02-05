@@ -1,4 +1,4 @@
-#24/6/19 ML Monday
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
