@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Feb  6 10:29:39 2020
-
-@author: Chirag
-"""
 
 # Multile Image
 
