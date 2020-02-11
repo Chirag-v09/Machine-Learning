@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
+# Making fake dataset
 m=100
 X = 6*np.random.randn(m,1)
 y = 2*X**2 + X + 2 + 2*np.random.randn(m,1) 
