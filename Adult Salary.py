@@ -20,7 +20,7 @@ dataset = pd.read_csv('Adult Sal.csv', names = ['age',
                                           'salary'],
                         na_values = ' ?')
 
-dataset.isnull()
+dataset.isnull().sum()
 
 X = dataset.iloc[:, 0:14].values
 y = dataset.iloc[:, -1].values
