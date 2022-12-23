@@ -155,7 +155,7 @@ print(n_b.score(X, y))#50.8 --- 50.8  No Change
 # from sklearn.ensemble import VotingClassifier
 # vot1 = VotingClassifier([('LR', log_reg),
 #                        ('KNN', knn),
-#                        ('SVM', svm)])
+#                        ('SVM', svm)], voting ='hard')
 # vot1.fit(X_train, y_train)
 # joblib.dump(vot1, "Votting_LR_KNN_SVM.pkl")
 # =============================================================================
@@ -170,7 +170,7 @@ print(vot1.score(X, y))#86.2
 # from sklearn.ensemble import VotingClassifier
 # vot = VotingClassifier([('LR', log_reg),
 #                        ('KNN', knn),
-#                        ('NB', n_b)])
+#                        ('NB', n_b)], voting ='soft')
 # vot.fit(X_train, y_train)
 # joblib.dump(vot, "Votting_LR_KNN_NB.pkl")
 # =============================================================================
